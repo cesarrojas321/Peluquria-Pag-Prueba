@@ -1,0 +1,136 @@
+body{
+background: #6666;
+
+}
+
+/*Para dar Altura y color al header*/
+header{height:64px;                               /*MEDIDA DE ALTURA del HEADER*/
+	background: #E91E63;                          /*COLOR*/
+}
+
+/* Para Colocar Logo, Tamaño */
+.Leonardo_Creative{
+	padding: 0px;           /* padding: indica el relleno*/
+	width: 64px;            /*width: es para Tamaño*/
+}
+
+ 
+nav ul{
+float: right;              /* float: Mueve texto en su contenedor Derecha o Iquierda letf*/
+margin-right: 20px;        /*margin-right: Mueve el margen Derecha o Iquierda letf  */
+padding:20px;              /* padding: Para separa el texto o distancia, img (SOMOS FUNDADOR SERVICIOS SUCURSAL)  */
+}
+
+nav ul li{
+display: inline-block;     /* display: inline-block: Coloca Los texto, img etc uno al lado de otro */
+}
+
+nav ul li a{
+	padding: 10px;               /*padding: Para separa el texto o distancia, img */
+	color: white;
+	text-transform:uppercase ;   /* text-transform:uppercase : Para colocar todo el texto MAYUSCULA */
+	text-decoration: none;       /* Para quitar Subrayado */
+}
+
+.splash{
+	width: 100%;                             /*Colocar Dimenciones  */
+	height: 100vh;                           /*Colocar Dimenciones vh es el tamaño de la pantalla  */
+	background: url(../images/Fondo.jpg)     /* Para llamar a un recurso que no esta en la carpeta CSS */
+	center center fixed ;                    /* Posicion del Background sea Centrado vertical, Centrado Horizontal, Fixed Posicion absoluta  */
+	background-size: cover;                 /* Ajusta la Imagen a la Pantalla */
+}
+
+.centrado{
+	text-align: center;   /*Para centar texto PRUEBA SCAFOLDING*/
+
+}
+
+
+
+.espacios{
+padding-top: 50px;     /* padding-top ES como saltos de lineas desde arriba hacia abajo, dar espacios entre texto o img */
+padding-bottom: 50px;  /* padding-top ES como saltos de lineas desde abajo hacia arriba, dar espacios entre texto o img */
+
+
+}
+
+
+.splash h1{
+/*margin-top: 10px; */           /* Separa el texto dando margenes*/
+background: black;
+color: white;
+font-size: 30px;                   /*Tamaño de Letra*/
+display: inline-block;         /* Tamaño de fondo en linea (Pagina de Prueba Peluqueria Rizos) */
+padding: 10px;                     /* Tamaño de Fondo que esta dentro de texto (Pagina de Prueba Peluqueria Rizos) */
+}
+
+.text{                         /* Pagina de Prueba Peluqueria Rizos, A tu Estilo, Turnos*/
+	margin-top: 10vh;          /* margin-top: 100px o 100vh  contener todo el texto en una clase y modificar en CSS */
+}
+
+.splash .btn{           /*Clase de splash y btn  */
+background: #E91E63;
+color: white;
+}
+
+.card .btn{            /* Boton de COMPRAR a la Derecha*/
+	float: right;
+}
+
+.btn:hover{             /* Boton cambia de color cuando pasas el corsor por encima de el */
+	background: black;
+	color: white;
+}
+
+
+
+ 
+.content{         /*  Secados, Sacados Profesionales ,Secados Profesionas 2*/
+padding: 10px;
+}
+
+
+.card{      /*para hacer bordes sombrado a la imagen y se coloca !important para pisar cualquier otra cosa que tenga html*/
+box-shadow:0 2px 2px 0 rgba(0, 0, 0, 0.14)!important  
+}
+
+
+
+#letritas{                 /*Color de fondo de #SteveJobs y Medios de pago */
+background: #f2f2f2;
+
+
+}
+                                 /*Color a medios de pago y comillas grandes */
+#letritas i{                   /*Todos los i que esten dentro de letritas van hacer de color #xxxxxx */
+color:#1e88e5;   /* Para colocar iconos desde FONTAWESONE <i class="fa-solid fa-quote-right"></i> */
+}
+                           
+.pintadito{                     /* COLORES #SteveJobs */
+background: #999;
+padding: 2px;
+font-size: 30px;
+color: white;
+}
+
+.frases i{
+font-size: 100px;         /* Tamaño de medios de pago*/
+}
+
+.frases h2{
+	padding: 30px;
+}
+
+.img-fluid{               
+	height: 250px;              /* Tamaño del Cochinito*/
+   
+}
+
+
+
+
+
+
+
+
+
